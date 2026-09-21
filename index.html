@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <h1>Formulário de Cadastro</h1>
+            <p>Preencha seus dados abaixo</p>
+            <div class="campo"> <label for="nome">Nome completo</label> <input type="text" id="nome"
+                    placeholder="Digite seu nome"> </div>
+            <div class="campo"> <label for="email">E-mail</label> <input type="email" id="email"
+                    placeholder="Digite seu e-mail"> </div>
+            <div class="campo"> <label for="senha">Senha</label> <input type="password" id="senha"
+                    placeholder="Digite sua senha"> </div>
+            <div class="campo"> <label for="idade">Idade</label> <input type="number" id="idade"
+                    placeholder="Digite sua idade"> </div>
+            <div class="campo"> <label for="cidade">Cidade</label> <select id="cidade">
+                    <option value="">Selecione sua cidade</option>
+                    <option value="sao-jose">São José dos Campos</option>
+                    <option value="jacarei">Jacareí</option>
+                    <option value="taubate">Taubaté</option>
+                    <option value="sao-paulo">São Paulo</option>
+                </select> </div>
+            <div class="campo"> <label for="mensagem">Sobre você</label> <textarea id="mensagem" rows="5"
+                    placeholder="Conte um pouco sobre você"></textarea> </div> <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+
+</html>
